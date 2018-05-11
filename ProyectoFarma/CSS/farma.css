@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+header {
+    width: 100%;
+}
+
+header img {
+    width: 100px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+
+.button {
+    background: none repeat scroll 0 0 #DEDEDE;
+    border: 1px solid #C6C6C6;
+    float: left;
+    font-weight: bold;
+    padding: 4px 20px;
+    margin-top: 10px;
+}
+
+
+
+.texto1 {
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.texto2 {
+    text-align: center;
+    font-size: 16px;
+}
+
+.texto3 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.farma {
+    width: 30%;
+    float: left;
+    background-color: #1da074;
+    color: #FFF;
+    margin: 5px;
+    padding: 10px
+}
+
+.fecha {
+    text-align: center;
+    color: #121F1B;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+@media screen and (max-width: 1100px) {
+    .farma {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .farma {
+        width: 43%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .farma {
+        width: 95%;
+    }
+    .fecha {
+        font-size: 20px;
+    }
+}

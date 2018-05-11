@@ -1,0 +1,27 @@
+
+
+#zonas h2,h3{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+
+
+#zonas .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#zonas article {
+    margin: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+#zonas img{
+    width: 100%;
+    max-width: 200px;
+}

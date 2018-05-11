@@ -1,0 +1,64 @@
+<!DOCTYPE Html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="img/cruz-perfil.png" />
+    <link rel="stylesheet" href="css/estilos-index.css">
+    <title>FarmaGuia-Login</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="inicio.html"><img src="img/cruz-perfil.png"></a>
+    </header>
+    <main>
+        <div class="content-form">
+            <h2>Inicia Sesión</h2>
+            <h4>¿Nuevo en FarmaGuia?
+                <a href="registrarse.html">Regístrate</a>
+            </h4>
+            <form id="login" method="post">
+                <label for="email" class="lbl-email">Email</label>
+                <input type="email" id="email" required>
+
+                <label for="clave" class="lbl-clave">Contraseña</label>
+                <input type="password" id="clave" required>
+
+                <div class="content-check">
+                    <label for="checkbox">
+                        <input type="checkbox" id="checkbox">Recuérdame</label>
+                    <a href="#">¿Olvidaste tu contraseña?</a>
+                </div>
+
+                <input type="submit" value="Inicia Sesión">
+            </form>
+
+            <div class="content-redes">
+                <a href="#">
+                    <div class="facebook">
+                        <h2>F</h2>
+                        <label>Continuar con Facebook</label>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="googleplus">
+                        <h2>G+</h2>
+                        <label>Continuar con Google</label>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/script-registrarse.js"></script>
+
+    
+</body>
+
+</html>

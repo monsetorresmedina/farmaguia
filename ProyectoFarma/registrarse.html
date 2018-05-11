@@ -1,0 +1,66 @@
+<!DOCTYPE Html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login </title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="img/cruz-perfil.png" />
+    <link rel="stylesheet" href="css/estilos-registrarse.css">
+    <title>FarmaGuia-Registrarse</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="inicio.html"><img src="img/cruz-perfil.png"></a>
+    </header>
+    <main>
+        <div class="content-form">
+            <h2>Registre su Farmacia</h2>
+            <h4>¿Ya eres parte de FarmaGuia?
+                <a href="login.html">Iniciar Sesión</a>
+            </h4>
+            <form>
+                <label for="email" class="lbl-email">Email</label>
+                <input type="text" id="email" required>
+
+                <label for="confir-email" class="lbl-confir-email">Confirmar Email</label>
+                <input type="text" id="confir-email" required>
+
+                <label for="clave" class="lbl-clave">Contraseña</label>
+                <input type="password" id="clave" required>
+
+                <label for="confir-clave" class="lbl-confir-clave">Confirmar Contraseña</label>
+                <input type="password" id="confir-clave" required>
+
+                <div class="content-check">
+                    <a href="login1.html">¿Ya estas registrado?</a>
+                </div>
+
+                <input type="submit" value="Registrase">
+            </form>
+
+            <div class="content-redes">
+                <a href="https://es-la.facebook.com/" target="_blank">
+                    <div class="facebook">
+                        <h2>F</h2>
+                        <label>Continuar con Facebook</label>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="googleplus">
+                        <h2>G+</h2>
+                        <label>Continuar con Google</label>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/script-registrarse.js"></script>
+</body>
+
+</html>

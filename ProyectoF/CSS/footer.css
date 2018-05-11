@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+footer{
+     background: #1da074;
+     color:#fff;
+     padding: 10px;
+     text-align: center;
+
+}
+.footer .social [class^="fa fa-"] {
+    display: inline-block;
+    color: #1da074;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    background: #fff;
+    border-radius:50%;
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+    margin-bottom:10px; 
+}
+
+
+.fa-twitter:hover,.fa-facebook:hover,.fa-instagram:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
