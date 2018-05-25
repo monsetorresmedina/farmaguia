@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "farmaguia.web.api", "farmaguia.web.api\farmaguia.web.api.csproj", "{93FEE31E-BA47-4649-8F56-DBCFA626D659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "farmaguia.web.api.Tests", "farmaguia.web.api.Tests\farmaguia.web.api.Tests.csproj", "{FEE62A15-6227-4675-8063-5F709784670E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93FEE31E-BA47-4649-8F56-DBCFA626D659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93FEE31E-BA47-4649-8F56-DBCFA626D659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93FEE31E-BA47-4649-8F56-DBCFA626D659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93FEE31E-BA47-4649-8F56-DBCFA626D659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEE62A15-6227-4675-8063-5F709784670E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEE62A15-6227-4675-8063-5F709784670E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEE62A15-6227-4675-8063-5F709784670E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEE62A15-6227-4675-8063-5F709784670E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBD2F30D-19D6-412B-B1AE-A762D0A6F8EC}
+	EndGlobalSection
+EndGlobal
