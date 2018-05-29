@@ -10,7 +10,6 @@ import { RegistryComponent } from './registry/registry.component';
 import { LoginComponent } from './login/login.component';
 import { ContactComponent } from './contact/contact.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
